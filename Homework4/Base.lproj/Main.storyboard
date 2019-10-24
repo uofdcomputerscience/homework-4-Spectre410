@@ -30,7 +30,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="One"/>
                                 <connections>
-                                    <segue destination="rpi-ih-eOb" kind="push" id="FRd-KA-plM"/>
+                                    <segue destination="rpi-ih-eOb" kind="show" id="FRd-KA-plM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ym9-ea-TS1">
@@ -38,7 +38,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Two"/>
                                 <connections>
-                                    <segue destination="Czu-ow-eeQ" kind="modal" id="aED-ux-doI"/>
+                                    <segue destination="Czu-ow-eeQ" kind="presentation" id="aED-ux-doI"/>
                                 </connections>
                             </button>
                         </subviews>
